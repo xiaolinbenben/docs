@@ -41,7 +41,7 @@ const config: Config = {
       {
         docs: {
           path: 'docs/tutorial',
-          sidebarPath: './sidebars.ts',
+          sidebarPath: './sidebarsTutorial.ts',
           routeBasePath: 'tutorial',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -72,18 +72,18 @@ const config: Config = {
       '@docusaurus/plugin-content-docs',
       {
         id:'rule',
-        path: 'rule',
+        path: 'docs/rule',
         routeBasePath: 'rule',
-        sidebarPath:'./sidebars.ts',
+        sidebarPath:'./sidebarsRule.ts',
       },
     ],
     [
       '@docusaurus/plugin-content-docs',
       {
         id:'project',
-        path: 'project',
+        path: 'docs/project',
         routeBasePath: 'project',
-        sidebarPath:'./sidebars.ts',
+        sidebarPath:'./sidebarsProject.ts',
       },
     ],
   ],
@@ -101,10 +101,11 @@ const config: Config = {
       },
       items: [
         {
-          to: '/docs/tutorial/tutorial-intro',
-          label: 'Tutorial',
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          docsPluginId: 'default',
           position: 'left',
-          activeBaseRegex: '^/docs/tutorial/',
+          label: 'Tutorial',
         },
         {
           type: 'docSidebar',
@@ -120,7 +121,7 @@ const config: Config = {
           position: 'left',
           label: 'Project',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/docs/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/beisi-tech/docs',
           label: 'GitHub',
@@ -140,11 +141,11 @@ const config: Config = {
             },
             {
               label: 'Rule',
-              to: '/rule/rule-intro',
+              to: '/docs/rule/rule-intro',
             },
             {
               label: 'Project',
-              to: '/project/project-intro',
+              to: '/docs/project/project-intro',
             },
           ],
         },
@@ -170,7 +171,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              to: '/docs/blog',
             },
             {
               label: 'GitHub',
