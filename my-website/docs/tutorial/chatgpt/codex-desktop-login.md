@@ -1,7 +1,7 @@
 ---
-sidebar_label: "Codex"
-sidebar_position: 10
-slug: codex
+sidebar_label: "Codex Desktop 切换回官方登录模式教程"
+sidebar_position: 1
+slug: codex-desktop-login
 ---
 
 # Codex Desktop 切换回官方登录模式教程
