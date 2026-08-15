@@ -42,6 +42,46 @@
             <category>网络优化</category>
         </item>
         <item>
+            <title><![CDATA[做产品，先做给自己用]]></title>
+            <link>https://beisi-tech.github.io/docs/blog/make-product-for-yourself</link>
+            <guid>https://beisi-tech.github.io/docs/blog/make-product-for-yourself</guid>
+            <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[前几天一个朋友跟我说："我想到一个特别好的点子，肯定能火。"]]></description>
+            <content:encoded><![CDATA[<p>前几天一个朋友跟我说："我想到一个特别好的点子，肯定能火。"</p>
+<p>我问他："你自己会用吗？"</p>
+<p>他愣了半天，说："……不会。"</p>
+<p>我大概能猜到结局了。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="点子好不等于有人用">点子好，不等于有人用<a href="https://beisi-tech.github.io/docs/blog/make-product-for-yourself#%E7%82%B9%E5%AD%90%E5%A5%BD%E4%B8%8D%E7%AD%89%E4%BA%8E%E6%9C%89%E4%BA%BA%E7%94%A8" class="hash-link" aria-label="点子好，不等于有人用的直接链接" title="点子好，不等于有人用的直接链接" translate="no">​</a></h2>
+<p>很多人做产品：先想一个点子，觉得需求很刚，花几个月做出来，最后没人用。</p>
+<p>问题出在哪？</p>
+<p><strong>需求是想象的，不是真实的。</strong></p>
+<p>想出来的需求，和每天遇到的需求，完全是两回事。前者是猜测，后者是事实。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="三个产品都是先做给自己用的">三个产品，都是先做给自己用的<a href="https://beisi-tech.github.io/docs/blog/make-product-for-yourself#%E4%B8%89%E4%B8%AA%E4%BA%A7%E5%93%81%E9%83%BD%E6%98%AF%E5%85%88%E5%81%9A%E7%BB%99%E8%87%AA%E5%B7%B1%E7%94%A8%E7%9A%84" class="hash-link" aria-label="三个产品，都是先做给自己用的的直接链接" title="三个产品，都是先做给自己用的的直接链接" translate="no">​</a></h2>
+<p>terln.cn 上有三个产品：图灵 API、Terln AI、ChatGPT 助手。</p>
+<p>这三个都不是先想出来的点子，而是我们自己先用，用着用着才推广出去的。</p>
+<p>图灵 API，是因为我们自己调用各种 AI 模型很烦，就做了个统一的接入服务；Terln AI，是因为自己批量做图做视频太慢，就做了个批量平台；ChatGPT 助手，是因为自己管理 AI 环境太乱，就做了个桌面工具。</p>
+<p>现在这三个产品都在盈利。</p>
+<p>我们不是先想"别人需要什么"，而是先解决"我自己正在烦什么"。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="自己用好处是天然的">自己用，好处是天然的<a href="https://beisi-tech.github.io/docs/blog/make-product-for-yourself#%E8%87%AA%E5%B7%B1%E7%94%A8%E5%A5%BD%E5%A4%84%E6%98%AF%E5%A4%A9%E7%84%B6%E7%9A%84" class="hash-link" aria-label="自己用，好处是天然的的直接链接" title="自己用，好处是天然的的直接链接" translate="no">​</a></h2>
+<p>做自己用的产品，有几个别人给不了的优势。</p>
+<p>第一，<strong>需求是真的</strong>。不是猜的，是你每天真实面对的。</p>
+<p>第二，<strong>你永远有第一个用户</strong>。产品还没推广，你就是用户，用着用着就发现问题、改掉它。</p>
+<p>第三，<strong>推广是顺便的</strong>。你自己就在用，别人问起来直接讲使用场景就行，比任何广告都真实。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="最怕的是我觉得">最怕的是"我觉得"<a href="https://beisi-tech.github.io/docs/blog/make-product-for-yourself#%E6%9C%80%E6%80%95%E7%9A%84%E6%98%AF%E6%88%91%E8%A7%89%E5%BE%97" class="hash-link" aria-label="最怕的是&quot;我觉得&quot;的直接链接" title="最怕的是&quot;我觉得&quot;的直接链接" translate="no">​</a></h2>
+<p>做产品最怕的一句话就是："我觉得这个点子很好。"</p>
+<p><strong>"我觉得"是最不靠谱的需求来源。</strong> 你觉得好，不代表别人觉得好；你觉得需要，不代表别人需要。</p>
+<p>那怎么判断一个需求真不真？</p>
+<p>最简单的办法：你自己是不是天天在用？自己都不用，凭什么指望别人用？</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="捕捉需求才是核心能力">捕捉需求，才是核心能力<a href="https://beisi-tech.github.io/docs/blog/make-product-for-yourself#%E6%8D%95%E6%8D%89%E9%9C%80%E6%B1%82%E6%89%8D%E6%98%AF%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B" class="hash-link" aria-label="捕捉需求，才是核心能力的直接链接" title="捕捉需求，才是核心能力的直接链接" translate="no">​</a></h2>
+<p>说了这么多，核心就一句话：<strong>学会捕捉需求，永远是最重要的。</strong></p>
+<p>需求不是想出来的，是碰出来的。你用得多了、烦得多了，自然就知道哪里该被优化。</p>
+<p>自己做自己的产品，就是在免费获得一个最真实的需求来源——你自己。</p>
+<p>先做给自己用，用着用着，说不定就成了。</p>]]></content:encoded>
+            <category>产品</category>
+            <category>创业</category>
+            <category>个人成长</category>
+        </item>
+        <item>
             <title><![CDATA[DeepSeek Harness 一文入门，附小白安装教程]]></title>
             <link>https://beisi-tech.github.io/docs/blog/deepseek-harness-guide</link>
             <guid>https://beisi-tech.github.io/docs/blog/deepseek-harness-guide</guid>
@@ -1084,26 +1124,6 @@
             <category>创业故事</category>
             <category>大学生活</category>
             <category>商业思维</category>
-        </item>
-        <item>
-            <title><![CDATA[我目前在维护的所有项目]]></title>
-            <link>https://beisi-tech.github.io/docs/blog/all-projects-i-am-maintaining</link>
-            <guid>https://beisi-tech.github.io/docs/blog/all-projects-i-am-maintaining</guid>
-            <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[1. 知心家教 网址//zhixin.beisi.tech/]]></description>
-            <content:encoded><![CDATA[<ol>
-<li>知心家教 网址: <a href="https://zhixin.beisi.tech/" target="_blank" rel="noopener noreferrer">https://zhixin.beisi.tech/</a></li>
-<li>应用仓库 网址: <a href="https://yyck.beisi.tech/" target="_blank" rel="noopener noreferrer">https://yyck.beisi.tech/</a></li>
-<li>AI Box 网址: <a href="https://aibox.beisi.tech/" target="_blank" rel="noopener noreferrer">https://aibox.beisi.tech/</a></li>
-<li>小程序商城: <a href="https://hioshop.beisi.tech/" target="_blank" rel="noopener noreferrer">https://hioshop.beisi.tech/</a></li>
-<li>外贸站: <a href="https://shoesworker.com/" target="_blank" rel="noopener noreferrer">https://shoesworker.com/</a></li>
-<li>visionflow: <a href="https://visionflow.beisi.tech/" target="_blank" rel="noopener noreferrer">https://visionflow.beisi.tech/</a></li>
-<li>企业文档: <a href="https://beisi-tech.github.io/docs" target="_blank" rel="noopener noreferrer">https://beisi-tech.github.io/docs</a></li>
-<li>海外站搭建: <a href="https://wp.beisi.tech/" target="_blank" rel="noopener noreferrer">https://wp.beisi.tech/</a></li>
-</ol>]]></content:encoded>
-            <category>项目</category>
-            <category>开源</category>
-            <category>个人作品</category>
         </item>
     </channel>
 </rss>
