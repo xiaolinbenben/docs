@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '倍司企业文档',
-  tagline: '沉淀流程与经验，统一规范与标准',
+  title: 'Beisi Docs',
+  tagline: 'Organize Knowledge, Empower Teams.',
   favicon: 'img/favicon(1).ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -31,8 +31,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -44,12 +44,10 @@ const config: Config = {
           sidebarPath: './sidebarsTutorial.ts',
           routeBasePath: 'tutorial',
           editUrl:
-            'https://github.com/beisi-tech/docs/tree/main/my-website/',
+            'https://github.com/beisi-tech/docs/tree/main/my-website/docs/tutorial/',
         },
         blog: {
           showReadingTime: true,
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: '所有文章',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -57,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/beisi-tech/docs/tree/main/my-website/',
+            'https://github.com/beisi-tech/docs/tree/main/my-website/docs/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -65,11 +63,6 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
-        sitemap: {
-          changefreq: 'weekly',
-          priority: 0.7,
-          filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
     ],
@@ -83,7 +76,7 @@ const config: Config = {
         routeBasePath: 'rule',
         sidebarPath:'./sidebarsRule.ts',
         editUrl:
-          'https://github.com/beisi-tech/docs/tree/main/my-website/',
+          'https://github.com/beisi-tech/docs/tree/main/my-website/docs/rule/',
       },
     ],
     [
@@ -94,31 +87,13 @@ const config: Config = {
         routeBasePath: 'project',
         sidebarPath:'./sidebarsProject.ts',
         editUrl:
-          'https://github.com/beisi-tech/docs/tree/main/my-website/',
-      },
-    ],
-    [
-      '@easyops-cn/docusaurus-search-local',
-      {
-        hashed: true,
-        indexDocs: true,
-        indexBlog: true,
-        language: ['en', 'zh'],
-        docsRouteBasePath: ['tutorial', 'rule', 'project'],
-        fuzzyMatchingDistance: 0,
+          'https://github.com/beisi-tech/docs/tree/main/my-website/docs/project/',
       },
     ],
   ],
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    metadata: [
-      {
-        name: 'keywords',
-        content:
-          'Beisi Docs, 技术教程, 全栈开发, 开发规范, 项目介绍, 博客, 云服务, AI, Cloudflare, Docusaurus, GitHub',
-      },
-    ],
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -166,15 +141,15 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/tutorial/intro',
+              to: '/docs/tutorial/tutorial-intro',
             },
             {
               label: 'Rule',
-              to: '/docs/rule/intro',
+              to: '/docs/rule/rule-intro',
             },
             {
               label: 'Project',
-              to: '/docs/project/intro',
+              to: '/docs/project/project-intro',
             },
           ],
         },
